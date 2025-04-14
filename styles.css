@@ -23,6 +23,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-weight: 900;
+    flex-shrink: 0;
 }
 
 .header-list {
@@ -41,22 +42,53 @@ body {
 .body {
     display: flex;
     flex-direction: row;
+    background-color: #1F2937;
 }
 
 .text-body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 100px;
+}
+
+.coolcat {
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hero-main {
     display: flex;
     flex-wrap: wrap;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
+
+.secondary-text 
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 90px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
 
 
 a {
     text-decoration: none;
     color: #E5E7EB;
-    
 }
