@@ -83,12 +83,45 @@ body {
     max-width: 90px;
     margin-top: 20px;
     font-size: 18px;
+    border-radius: 20px;
 }
-
-
-
 
 a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.body-illustration {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    flex-basis: 100%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.kitties {
+    display: flex;
+    height: 200px;
+    border: 5px solid;
+    border-color: #3882F6;
+    width: 200px;
+    border-radius: 20%;
+}
+
