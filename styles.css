@@ -43,6 +43,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    margin-bottom: 24px;
 }
 
 .text-body {
@@ -55,9 +56,11 @@ body {
 }
 
 .coolcat {
+    display: flex;
     padding-right: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .hero-main {
@@ -84,6 +87,7 @@ body {
     margin-top: 20px;
     font-size: 18px;
     border-radius: 20px;
+    margin-bottom: 24px;
 }
 
 a {
@@ -104,6 +108,7 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin-bottom: 24px;
 }
 
 .images {
@@ -111,9 +116,10 @@ a {
     flex-basis: 100%;
     gap: 40px;
     justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    
+    align-items: baseline;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+
 }
 
 .kitties {
@@ -123,5 +129,13 @@ a {
     border-color: #3882F6;
     width: 200px;
     border-radius: 20%;
+}
+
+.kitty-info {
+    max-width: 200px;
+}
+
+.text {
+    flex-wrap: wrap;
 }
 
