@@ -4,6 +4,8 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: "Roboto";
+    max-width: 100%;
+    min-width: 10%;
 }
 
 .header {
@@ -51,15 +53,28 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 300px;
-    padding-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    flex-basis: 100%
 }
 
 .coolcat {
     display: flex;
-    padding-right: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex-basis: 100%
+    
+}
+
+
+
+.coolcontainer {
+    display: flex;
+    flex-shrink: 1;
+    margin-right: auto;
     flex-wrap: wrap;
 }
 
@@ -104,7 +119,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
