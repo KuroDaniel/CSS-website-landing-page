@@ -170,6 +170,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 40px
 }
 
 .call-to-action {
@@ -208,5 +209,13 @@ a {
     border: 2px solid;
     margin-right: 40px;
     font-weight: 600;
-    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
